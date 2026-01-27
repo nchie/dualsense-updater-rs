@@ -1,0 +1,12 @@
+[package]
+name = "dualsense-updater"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+clap = { version = "*", features = ["derive"] }
+hidapi = "*"
+log = "*"
+env_logger = "*"
+thiserror = "*"
